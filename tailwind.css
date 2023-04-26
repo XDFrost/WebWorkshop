@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* @layer base{
+    body{
+        @apply bg-yellow;
+    }
+} */
 div{
-    border:1px solid red;
+    border:1px solid rgb(29, 225, 32);
 }
